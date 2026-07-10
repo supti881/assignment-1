@@ -52,5 +52,25 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
 }
+.header-content{
+   color: #FFFFFF;
+   text-align: center;
+   display: grid;
+   gap: 20px;
+   justify-items: center;
+}
+.header-content button{
+    
+    margin-top: 300px;
+    position: static;
+}
+.header-content h1{
+    font-size: 52px;
+    margin-bottom: 22px;
+}
+
