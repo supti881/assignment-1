@@ -5,6 +5,9 @@
 body{
     font-family: "Inter", sans-serif;
 }
+section{
+    padding: 10px 6%;
+}
 nav{
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -76,4 +79,39 @@ header {
     font-size: 52px;
     margin-bottom: 22px;
 }
+
+/* main */
+.speakers h1{
+    text-align: center;
+    padding: 30px;
+}
+.speaker-card{
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.speaker-card img{
+    width: 100%;
+}
+.speaker-info {
+    padding: 24px;
+    display:grid;
+    gap: 12px;
+
+}
+.speaker-info h4{
+    color: #2563EB;
+}
+.speaker-info h3{
+    color: #575757;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 33px;
+}
+
+
+
 
