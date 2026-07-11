@@ -1,0 +1,1 @@
+can you give me a idea for the missing section which will match the devconf and also a idea which is simple and best for a beginner.

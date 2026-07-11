@@ -65,7 +65,7 @@ header {
     display: grid;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
 }
 
 .header-content {
@@ -126,12 +126,14 @@ header {
 }
 
 .speakers {
-    width: 100%;
-    height: 1200px;
+    padding: 60px 6%;
 }
 
 .Secure {
+    width: 100%;
+    height: 718px;
     background-color: #FFFFFF;
+    margin-top: 100px;
 
 }
 
@@ -148,7 +150,10 @@ header {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    gap: 24px;
 
 
 }
@@ -206,6 +211,7 @@ header {
     border-radius: 12px;
     background-color: #FFFFFF;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -217,6 +223,7 @@ header {
     border-radius: 12px;
     background-color: #2563EB;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -227,6 +234,7 @@ header {
     border-radius: 12px;
     background-color: #FFFFFF;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -236,4 +244,60 @@ header {
 
 .card-two h1 {
     color: #FFFFFF;
+}
+
+.sponsers {
+    display: grid;
+    border-radius: 12px;
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    padding: 24px 6%;
+}
+
+.sponsers-card img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto 12px;
+    object-fit: cover;
+
+}
+
+.sponsers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 48px;
+    gap: 24px;
+}
+
+.logo-title {
+    text-align: center;
+}
+
+.sponser-top {
+    display: grid;
+    text-align: center;
+}
+
+.logo-title h3 {
+    color: #888888;
+    font-weight: bold;
+}
+
+.logo-title p {
+    color: #0D1B2A;
+}
+.footer{
+    background-color: #0D1B2A;
+    height: 100px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
