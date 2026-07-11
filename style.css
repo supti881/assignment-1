@@ -261,7 +261,7 @@ header {
     height: 250px;
     display: block;
     margin: 0 auto 12px;
-    object-fit: cover;
+    border-radius: 12px;
 
 }
 
@@ -269,7 +269,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 48px;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 .logo-title {
