@@ -107,6 +107,8 @@ header {
 .speakers h1 {
     text-align: center;
     padding: 30px;
+     font-size: 50px;
+    font-weight: 800;
 }
 
 .speaker-card {
@@ -158,10 +160,18 @@ header {
     text-align: center;
 }
 
+
 .top p {
     color: #575757;
 }
-
+.top h1{
+    font-size: 50px;
+    font-weight: 800px;
+}
+.sponser-top h1{
+    font-size: 50px;
+    font-weight: 800px;
+}
 .card-container {
     background-color: white;
     display: grid;
