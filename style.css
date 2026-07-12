@@ -171,43 +171,53 @@ header {
     padding: 48px;
     gap: 24px;
 
-
 }
 
 .card-container .card-one {
+    width: 350px;
+    height: 444px;
     background-color: #FFFFFF;
-    width: 300px;
-    height: 400px;
     text-align: left;
     padding: 32px;
     border-radius: 12px;
     border: 1px solid #E5E7EB;
     padding: 32px;
 }
+.card-one h3{
+    color: #888888;
+}
+
 
 .card-container .card-two {
+     width: 350px;
+    height: 444px;
     background-color: #0D1B2A;
-    width: 300px;
-    height: 400px;
     text-align: left;
     padding: 32px;
     border-radius: 12px;
     border: 1px solid #E5E7EB;
     padding: 32px;
+}
+.card-two h3{
+    color: #93C5FD;
 }
 
 .card-container .card-three {
+     width: 350px;
+    height: 444px;
     background-color: #E5E7EB;
-    width: 300px;
-    height: 400px;
     text-align: left;
     padding: 32px;
     border-radius: 12px;
     border: 1px solid #F8F9FB;
     padding: 32px;
 }
+.card-three h3{
+    color: #888888;
+}
 
 .list {
+    height: 220px;
     display: block;
     list-style: disc;
     padding-left: 20px;
@@ -218,10 +228,24 @@ header {
     gap: 10px;
 
 }
+.card-one .list li::marker {
+    color: #2563EB;
+}
+.card-three .list li::marker {
+    color: #2563EB;
+}
+.card-two .list li::marker {
+    color: #60A5FA;
+}
+
+.btn-standard ,.btn-pro ,.btn-contact{
+    width: 350px;
+    height: 45px;
+    font-weight: bolder;
+    font-size: large;
+}
 
 .btn-standard {
-    width: 100%;
-    height: 40px;
     color: #2563EB;
     border-color: #2563EB;
     border-radius: 12px;
@@ -232,8 +256,6 @@ header {
 }
 
 .btn-pro {
-    width: 100%;
-    height: 40px;
     color: #FFFFFF;
     border: none;
     border-radius: 12px;
@@ -244,8 +266,6 @@ header {
 }
 
 .btn-contact {
-    width: 100%;
-    height: 40px;
     color: #0D1B2A;
     border-radius: 12px;
     background-color: #FFFFFF;
@@ -256,6 +276,9 @@ header {
 
 .card-container p {
     color: #888888;
+}
+.card-container h3{
+font-weight: 600;
 }
 
 .card-two h1 {
